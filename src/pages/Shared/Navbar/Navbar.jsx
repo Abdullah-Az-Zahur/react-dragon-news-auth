@@ -35,7 +35,7 @@ const Navbar = () => {
                             <img alt="Tailwind CSS Navbar component" src={userDefaultPic} />
                         </div>
                     </div>
-                    <Link>
+                    <Link to='/login'>
                         <button className='btn'>Login</button>
                     </Link>
 
